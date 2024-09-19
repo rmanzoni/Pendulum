@@ -61,6 +61,28 @@ The Taylor expansion of a cosine curve is a parabola. To better find the local m
 
 <img width="1512" alt="Screenshot 2024-09-19 alle 16 03 57" src="https://github.com/user-attachments/assets/893774af-6fd3-4f5d-8849-503c204db37f">
 
+## Verify that the period of oscillation does not depend on the mass
+Need data.
+
+**Q: discuss compatibility between measurements**
+The central values will not be exactly the same, but will come with an uncertainty.  
+Discuss compatibility between pairwise measurements (combine total uncertainty, anything correlated or simple sum in quadrature?)  
+
+**Pro tip**
+Put all measurements in a $T$ vs $m$ graph and also display the uncertainty on $T$.  
+Run a $\chi^2$ fit with a flat function (constant), and compute the $p$-value corresponding to the normalized $\chi^2$.  
+
+## Calculate $g$ and its associated error
+
+Need $T$, $L$ and their uncertainties. Apply gaussian propagation
+
+## plot $T^2$ vs $L$
+
+## Compatibility between measured $g$ and $g_{Hoengg}$
+Similar to before. Use the result of the chi2 fit with flat function.
+
+## compute friction coefficient $\gamma$
+Either single out maxima / minima and fit with an expo, or fit all points with the full PDF for dampen oscillations
 
 
 
