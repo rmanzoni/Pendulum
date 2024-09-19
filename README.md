@@ -84,5 +84,20 @@ Similar to before. Use the result of the chi2 fit with flat function.
 ## compute friction coefficient $\gamma$
 Either single out maxima / minima and fit with an expo, or fit all points with the full PDF for dampen oscillations
 
+For example, use `fitter.py` provided in this repo
 
+<img width="1512" alt="Screenshot 2024-09-19 alle 17 11 39" src="https://github.com/user-attachments/assets/64cd8f12-ae0d-46ef-864d-cd3f1925d796">
+
+```
+****************************************
+Minimizer is Minuit / Migrad
+Chi2                      =      2.11946
+NDf                       =          152
+Edm                       =  1.37505e-06
+NCalls                    =          205
+A                         =     0.784725   +/-   0.0152518
+gamma                     =    -0.115164   +/-   0.00248665
+omega                     =      5.26108   +/-   0.00131206
+alpha                     =     0.713192   +/-   0.0205958
+```
 
