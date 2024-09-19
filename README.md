@@ -38,7 +38,20 @@ To do this, enable "View -> Event Statusbar", then hover your pointer on the fig
 <img width="1512" alt="Screenshot 2024-09-19 alle 15 31 45" src="https://github.com/user-attachments/assets/b440d942-06cb-488a-8710-3849553a14dc">
 <img width="1512" alt="Screenshot 2024-09-19 alle 15 31 25" src="https://github.com/user-attachments/assets/b0b54ad7-4c2e-4933-97ca-5ccfe3ecdefc">
 
-the first maximum sits at $4.3 s$, the second maximum at $19.8 s$ (Q: how many digits are appropriate?), total $\Delta t = 15.5 s$ and 13 periods in this time span, thus the period is $T = 15.5 s/13 = 1.2 s$
+the first maximum sits at $t_{0} = 4.3 s$, the second maximum at $t_{1}= 19.8 s$ **(Q: how many digits are appropriate?)**, total $\Delta t = 15.5 s$ and 13 periods in this time span, thus the period is $T = 15.5 s/13 = 1.2 s$
+
+**Q: how can improve the _precision_ of this measurement?**  
+Since the uncertainty on the time determination is constant, assume for example $0.1 s$, integrating over a longer period and thus more maxima, would reduce the impact of the uncertainty.
+
+**Q: how much would precision improve if twice as many maxima are considered?**  
+
+**Q: what is the difference between _precision_ and _accuracy_?**  
+To guide the intuition, you could in principle integrate over a very large number of periods and improve precision indefinitely.
+However, if your cronometer is, for example, systematically slow, such that when it displays $1s$ in fact $1.01s$ have elapsed, the accuracy would be limited to 1%
+
+
+
+
 
 
 
