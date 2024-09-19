@@ -30,3 +30,16 @@ result
 <img width="1512" alt="Screenshot 2024-09-19 alle 15 26 30" src="https://github.com/user-attachments/assets/2802f188-74b0-4cb2-ad32-bc104787ea39">
 
 
+### Compute period of oscillation
+
+For example, you can use the plot you produced earlier and count how many _maxima_ occur in a given time window.
+To do this, enable "View -> Event Statusbar", then hover your pointer on the figure, as in the screenshots below
+
+<img width="1512" alt="Screenshot 2024-09-19 alle 15 31 45" src="https://github.com/user-attachments/assets/b440d942-06cb-488a-8710-3849553a14dc">
+<img width="1512" alt="Screenshot 2024-09-19 alle 15 31 25" src="https://github.com/user-attachments/assets/b0b54ad7-4c2e-4933-97ca-5ccfe3ecdefc">
+
+the first maximum sits at $4.3 s$, the second maximum at $19.8 s$ (Q: how many digits are appropriate?), total $\Delta t = 15.5 s$ and 13 periods in this time span, thus the period is $T = 15.5 s/13 = 1.2 s$
+
+
+
+
