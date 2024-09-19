@@ -5,7 +5,7 @@ solution draft https://www.overleaf.com/project/66e11f87b49acdf3177e12a0
 Software requirements: [pandas]([url](https://pandas.pydata.org)), [uproot]([url](https://uproot.readthedocs.io/en/latest/index.html#how-to-install))  
 
 
-### Convert PhyPhox data into ROOT
+## Convert PhyPhox data into ROOT
 
 This creates a [ROOT]([url](https://root.cern)) TTree saved in `accelerations.root`
 ```
@@ -30,7 +30,7 @@ result
 <img width="1512" alt="Screenshot 2024-09-19 alle 15 26 30" src="https://github.com/user-attachments/assets/2802f188-74b0-4cb2-ad32-bc104787ea39">
 
 
-### Compute period of oscillation
+## Compute period of oscillation (simple counting)
 
 For example, you can use the plot you produced earlier and count how many _maxima_ occur in a given time window.
 To do this, enable "View -> Event Statusbar", then hover your pointer on the figure, as in the screenshots below
