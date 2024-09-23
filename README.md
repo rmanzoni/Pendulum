@@ -219,14 +219,10 @@ Discuss compatibility between pairwise measurements (combine total uncertainty, 
 Put all measurements in a $T$ vs $m$ graph and also display the uncertainty on $T$.  
 Run a $\chi^2$ fit with a flat function (constant), and compute the $p$-value corresponding to the normalized $\chi^2$.  
 
-## Calculate $g$ and its associated error
-
-Need $T$, $L$ and their uncertainties. Apply gaussian propagation
-
 ## plot $T^2$ vs $L$
 
 ## Compatibility between measured $g$ and $g_{Hoengg}$
-Similar to before. Use the result of the chi2 fit with flat function.
+$g_{\rm{Hoengg}} = (9.807 \pm 0.0)m/s^{2}$, $g_{\rm{meas}} = (9.67 \pm 0.53)m/s^{2]$, the measured value agrees within less than one standard deviation with the theoretical value.
 
 ## compute friction coefficient $\gamma$
 Either single out maxima / minima and fit with an expo, or fit all points with the full PDF for dampen oscillations
@@ -248,3 +244,4 @@ omega                     =      5.26108   +/-   0.00131206
 alpha                     =     0.713192   +/-   0.0205958
 ```
 
+The friction coefficient $\gamma = -0.115 \pm 0.002 s^{-1}$.
