@@ -188,7 +188,7 @@ gr = ROOT.TGraphErrors(3, array('d', [1,2,3]), array('d', values), array('d',[0.
 gr.Draw('AP')
 ```
 
-[g_graph.pdf](https://github.com/user-attachments/files/17095684/g_graph.pdf)
+![g_graph](https://github.com/user-attachments/assets/f07fe000-b8db-4069-b3d6-328a0c6ab908)
 
 Notice that the fitted value is (as it should!) exactly the same as that obtained from the weighted average.  
 
