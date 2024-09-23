@@ -220,6 +220,11 @@ Put all measurements in a $T$ vs $m$ graph and also display the uncertainty on $
 Run a $\chi^2$ fit with a flat function (constant), and compute the $p$-value corresponding to the normalized $\chi^2$.  
 
 ## plot $T^2$ vs $L$
+![t2_vs_l](https://github.com/user-attachments/assets/769067d9-14a8-4b95-8754-9a7600efa7de)
+
+Linear relation $T^{2} = 4\pi / g \cdot L$.  
+
+The coefficient of the linear regression can be used to extract $g = 4\pi / 4.081 = 9.67 m/s^{2}$ (leave error computation to you)
 
 ## Compatibility between measured $g$ and $g_{Hoengg}$
 $g_{\rm{Hoengg}} = (9.807 \pm 0.0)m/s^{2}$, $g_{\rm{meas}} = (9.67 \pm 0.53)m/s^{2}$, the measured value agrees within less than one standard deviation with the theoretical value.
