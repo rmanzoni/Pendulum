@@ -2,8 +2,9 @@
 ETH Praktikum example experiment  
 manual https://ap.phys.ethz.ch/Anleitungen/Bilingual/Manual_v09Sept2024.pdf  
 solution draft https://www.overleaf.com/project/66e11f87b49acdf3177e12a0  
-Software requirements: [pandas]([url](https://pandas.pydata.org)), [uproot]([url](https://uproot.readthedocs.io/en/latest/index.html#how-to-install))  
 
+[Scientific python quickstart]([url](https://gist.github.com/rmanzoni/97674876b8130cc8220a2b7bf1fd8ec9
+)) 
 
 ## Convert PhyPhox data into ROOT
 
